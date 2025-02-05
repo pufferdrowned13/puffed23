@@ -1,0 +1,116 @@
+
+
+
+
+
+header {
+    background:black;
+    color: orangered;
+    padding: 10px 10px;
+    position: relative; /* Ensure header is positioned correctly */
+    z-index: 10; /* Keep header above other content */
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.section-content {
+    text-align: center;
+    color: white;
+    margin-top: 100px; /* Adjust for fixed header */
+}
+
+
+section .section-content h1 {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+}
+
+section .section-content h2 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+section .section-content h3 {
+    color: black;
+    font-size: 25px; /* Corrected from 25spx to 25px */
+    text-align: center;
+}
+
+section img {
+    height: 800px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-col h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0; /* Corrected from 'pad' to 'padding' */
+}
+
+.footer-col {
+    margin: 5px 0;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.footer-col ul li:hover {
+    color: white; /* Corrected from ':hover' to 'li:hover' */
+}
+
+.footer-col form {
+    margin-top: 10px;
+}
